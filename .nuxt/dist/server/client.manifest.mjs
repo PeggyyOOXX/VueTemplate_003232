@@ -1,1 +1,0 @@
-export { default } from "file:///C:/Peggyy/Template_P/Vue-Template_P/node_modules/@nuxt/vite-builder/dist/runtime/client.manifest.mjs"
