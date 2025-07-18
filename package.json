@@ -1,0 +1,19 @@
+{
+  "name": "vue-tailwind-nuxt-clean",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "preview": "nuxt preview"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.10.0",
+    "nuxt": "^3.17.0",
+    "sass": "^1.89.2",
+    "sass-loader": "^16.0.5"
+  },
+  "dependencies": {
+    "gsap": "^3.13.0"
+  }
+}

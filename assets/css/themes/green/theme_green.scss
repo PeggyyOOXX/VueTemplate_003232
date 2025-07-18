@@ -1,0 +1,41 @@
+.theme-green {
+  --header-gradient: linear-gradient(90deg, #000a0a 0%, #003232 50%, #000a0a 100%);
+}
+.theme-green .header {
+  background: var(--header-gradient);
+}
+
+// Buttons
+.btn-primary {
+  border: 1px solid #ffff96;
+  background: linear-gradient(#ffff96, #a58200, #ffff96);
+  text-shadow: 0px 0px 8px rgba(0, 0, 0, 1);
+
+  &:hover {
+    background: #ffff96;
+    color: #000a0a;
+  }
+}
+.btn-secondary{
+  border: 1px solid #fff;
+  background: none;
+  text-shadow: 0px 0px 8px rgba(0, 0, 0, 1);
+
+  &:hover {
+    background: #fff;
+    color: #000a0a;
+  }
+}
+
+// Bottombar
+.bottombar-btnwrapper {
+  background: #ffff96;
+}
+.bottombar-btn {
+  background: linear-gradient(#a58200, #ffff96, #a58200);
+  color: #fff;
+  text-shadow: 0px 0px 4px rgba(0, 0, 0, 1);
+}
+.bottombar-bg{
+  background: linear-gradient(#00323200  0%, #003232  80%);
+}

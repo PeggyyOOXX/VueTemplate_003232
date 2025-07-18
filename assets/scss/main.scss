@@ -1,0 +1,51 @@
+@use 'sass:color';
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+// Bottombar
+.bottombar-btnwrapper {
+  clip-path: polygon(
+    50% 0%, 90% 25%, 90% 75%,
+    50% 100%, 10% 75%, 10% 25%
+  );
+}
+.bottombar-btn {
+  clip-path: polygon(
+    50% 0%, 90% 25%, 90% 75%,
+    50% 100%, 10% 75%, 10% 25%
+  );
+}
+.bottombar-btngroup {
+  width: 100%;
+  overflow-x: auto;
+  white-space: nowrap;
+  display: flex;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  scrollbar-width: none;
+}
+.bottombar-btngroup.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.bottombar-btngroup.scrollbar-hide {
+  scrollbar-width: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
