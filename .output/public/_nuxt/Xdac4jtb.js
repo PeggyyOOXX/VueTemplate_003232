@@ -1,1 +1,0 @@
-import{x as t,y as o,B as a,I as n}from"./BdGbdKsM.js";import{u as s}from"./6J6l1xc7.js";const p={__name:"default",setup(r){return s({bodyAttrs:{class:"theme-green"}}),(_,c)=>{const e=n;return o(),t("div",null,[a(e)])}}};export{p as default};

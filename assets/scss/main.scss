@@ -5,34 +5,23 @@ html, body {
 }
 
 // Bottombar
+.bottombar-btngroup {
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
 .bottombar-btnwrapper {
   clip-path: polygon(
     50% 0%, 90% 25%, 90% 75%,
     50% 100%, 10% 75%, 10% 25%
   );
+  margin-right: -12px;
 }
 .bottombar-btn {
   clip-path: polygon(
     50% 0%, 90% 25%, 90% 75%,
     50% 100%, 10% 75%, 10% 25%
   );
-}
-.bottombar-btngroup {
-  width: 100%;
-  overflow-x: auto;
-  white-space: nowrap;
-  display: flex;
-
-  &::-webkit-scrollbar {
-    display: none;
-  }
-  scrollbar-width: none;
-}
-.bottombar-btngroup.scrollbar-hide::-webkit-scrollbar {
-  display: none;
-}
-.bottombar-btngroup.scrollbar-hide {
-  scrollbar-width: none;
 }
 
 
