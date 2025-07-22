@@ -3,6 +3,7 @@
   <div class="animate-me opacity-0 transition">
     （GSAP）
     <div class="box">Hello</div>
+    <Icon icon="mdi:home" class="text-red-500" width="24" height="24" />
   </div>
   <BottomBar></BottomBar>
 </template>
@@ -14,6 +15,9 @@ import Header from '@/components/basic/Header.vue'
 import BottomBar from '@/components/basic/BottomBar.vue'
 import { onMounted } from 'vue'
 import { gsap } from 'gsap'
+import { useHead } from '#imports'
+import { Icon } from '@iconify/vue'
+
 
 onMounted(() => {
   gsap.to('.animate-me', {
