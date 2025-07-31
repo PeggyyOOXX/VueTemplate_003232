@@ -9,7 +9,7 @@ import { useHead } from '#imports'
 
 useHead({
   bodyAttrs: {
-    class: 'theme-green'
+    class: 'theme-light'
   }
 })
 </script>
